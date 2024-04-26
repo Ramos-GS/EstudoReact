@@ -1,6 +1,12 @@
-import Botao from "./components/Botao";
+import Button from "./components/Button";
 function App() {
-  return <div className="App"> <h1>Olá React</h1></div>;
+  return (
+  <div className="App"> <h1>Olá React</h1>
+  <Button title ='Entrar'/>
+  <Button title ='Entrar'/>
+  <Button title ='Entrar'/>
+  <Button title ='Entrar'/>
+  </div>);
 }
 
 export default App;

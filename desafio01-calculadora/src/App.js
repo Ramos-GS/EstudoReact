@@ -1,10 +1,11 @@
+import { Container,Content } from "./styles";
 
-const App = ()=>{
+const App = () => {
   return (
-    <div className="App">
-      ola
-    </div>
+    <Container>
+      <Content>ola</Content>
+    </Container>
   );
-}
+};
 
 export default App;

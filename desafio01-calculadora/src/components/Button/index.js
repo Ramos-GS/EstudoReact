@@ -1,9 +1,10 @@
+import {ButtonContainer} from './styles'
 
 const Button = ()=>{
     return (
-      <div className="App">
-        ola
-      </div>
+      <ButtonContainer>
+        1
+      </ButtonContainer>
     );
   }
   

@@ -8,6 +8,7 @@ export  const ButtonContainer =  styled.button`
     font-size: 24px;
     font-weight:700;
     flex:1;
+    border-radius: 5px;
 
 
 

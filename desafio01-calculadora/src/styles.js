@@ -29,3 +29,4 @@ export const Column = styled.div`
     justify-content: space-between;
     align-items: center;
 `
+

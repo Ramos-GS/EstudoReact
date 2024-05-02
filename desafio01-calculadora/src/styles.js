@@ -12,8 +12,6 @@ export const Container = styled.div`
 export const Content = styled.div`
     background-color: #FFFFFF;
     width: 20%;
-    border-radius: 8px;
-
 `
 export const Row = styled.div`
     display:flex;

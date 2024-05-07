@@ -1,0 +1,12 @@
+{
+  "name": "estudoreact",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000s\u0000t\u0000u\u0000d\u0000o\u0000R\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "babel-loader": "^9.1.3"
+  }
+}

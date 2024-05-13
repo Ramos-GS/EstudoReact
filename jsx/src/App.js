@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+const App = () => {
+  const arr = [1,2,3,4,5,6,7,8,9];
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello Dio</h1>
+      {arr.map((item)=>{ 
+        return(
+          <p>
+            {item}* 5 = {item * 5}
+          </p>
+        );
+      })}
     </div>
   );
-}
+};
 
 export default App;
